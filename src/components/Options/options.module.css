@@ -1,0 +1,49 @@
+.btnBox {
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.commentBtn {
+    width: 135px;
+    height: 45px;
+    border: none;
+    color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px #d9abd7;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.btnBox .commentBtn:nth-child(1) {
+    background-color: #bd92df;
+
+    &:hover {
+        background-color: #ad6edf;
+    }
+}
+
+.btnBox .commentBtn:nth-child(2) {
+    background-color: #b779c7;
+
+    &:hover {
+        background-color: #a550bb;
+    }
+}
+
+.btnBox .commentBtn:nth-child(3) {
+    background-color: #bb48ed;
+
+    &:hover {
+        background-color: #a40de5;
+    }
+}
+
+.btnBox .commentBtn:nth-child(4) {
+    background-color: #950995;
+
+    &:hover {
+        background-color: #470347;
+    }
+}
